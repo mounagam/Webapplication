@@ -15,7 +15,7 @@ namespace azuredevopsunittest.Tests
             int b = 4;
             int c;
             c = service.add(a, b);
-            Assert.AreEqual("9", c.ToString(), "Addition method success");
+            Assert.AreEqual("7", c.ToString(), "Addition method success");
         }
         [TestMethod]
         public void Multiplication()
